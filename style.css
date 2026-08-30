@@ -218,7 +218,9 @@ nav .right a:last-child{
         font-size: 16px;
     }
     /* progect-section */
-    
+    .project-section{
+        margin: 220px 0px;
+    }
     .project-section .project-imgs .img {
         width: 90%; /* البطاقة تأخذ أغلب عرض الشاشة */
         margin: 20px auto;
