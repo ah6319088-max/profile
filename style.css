@@ -119,12 +119,11 @@ nav .right a:last-child{
     border-radius: 10px;
     padding:5px 10px;
     gap: 10px;
-    margin-left: 20px;
+   margin-left: 13px;
 }
 .imgs .img img{
     width: 45px;
     height: 45px;
-    margin-left: 15px;
    
 }
 .imgs .img p{
@@ -213,6 +212,9 @@ nav .right a:last-child{
         font-size: 14px;
         line-height: 1.8px;
     }
+     .skills-section .imgs .img{
+
+     }
     .skills-section .imgs .img span{
         font-size: 16px;
     }
