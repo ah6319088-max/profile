@@ -24,6 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding:0 50px;
     height:80px
 }
@@ -31,16 +32,26 @@ nav .left a{
     font-size: 22px;
     font-family: "Alexandria",sans-serif;
 }
+nav .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 nav .right a{
    margin: 0px 5px;
    font-family: "inter";
 }
-nav .right a:last-child{
+nav .right .ins{
     background-color: #d62976;
     color: var(--bacground-color);
     padding:5px 10px;
     font-weight: 600;
     border-radius: 5px;
+}
+nav .right img{
+    width:30px;
+    margin-left:5px ;
 }
 /* Navbar end */
 
@@ -103,7 +114,7 @@ nav .right a:last-child{
 }
 .skills-section p{
     text-align: center;
-     direction: rtl;
+    direction: rtl;
 }
 .imgs{
     display: flex;
@@ -131,7 +142,7 @@ nav .right a:last-child{
 }
 /* skills end */
 
-/* progect start */
+/* project start */
 .project-section{
     padding:0px 50px;
     margin: 150px 0px;
@@ -192,7 +203,7 @@ nav .right a:last-child{
     nav .right a span{
         display: none;
     }
-    nav .right  a:last-child{
+    nav .right .ins{
         background-color: transparent;
         color:#d62976;
         padding:0px;
