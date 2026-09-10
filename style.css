@@ -266,8 +266,8 @@ nav .right img{
     gap: 10px;
 }
 .imgs .img img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
     .skils-section .text .p{
         font-size: 14px;
@@ -316,6 +316,8 @@ nav .right img{
         text-decoration: none;
     }
 }
+
+
 /* home section */
 @media(max-width:850px){
     .home .text h2{
@@ -338,4 +340,20 @@ nav .right img{
     .home .headshoot img{
         width: 200px;
     }
+     
 }
+@media(max-width:403px){
+     .skills-section .imgs {
+    display: flex;
+    align-items: center;   /* يسمح للعناصر بالنزول تحت */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imgs .img img{
+    width: 25px;
+    height: 25px;
+}
+
+}
+
